@@ -8,7 +8,7 @@ function App() {
       <h1>Hi, I'm a React App</h1>
         <p>This is really working...</p>
         <Person name="Nuwan" age="30"/>
-        <Person name="Ruwan" age="31"/>
+      <Person name="Ruwan" age="31">My Hobbies: Racing</Person> {/*My Hobbies: Racing will work as children on Person.js*/}
         <Person name="Saman" age="27"/>
     </div>
   );
