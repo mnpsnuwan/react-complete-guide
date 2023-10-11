@@ -1,6 +1,6 @@
 import './App.css';
 import React, {Component} from "react";
-import Radium from "radium";
+import Radium, { StyleRoot } from "radium";
 import Person from "./Person/Person";
 
 class App extends Component{
@@ -100,15 +100,17 @@ class App extends Component{
         }
 
       return (
-          <div className="App">
-              <h1>Hi, I'm a React App</h1>
-              <p className={styleClasses.join(' ')}>This is really working...</p>
-              {/*<button onClick={this.switchNameHandler.bind(this, "Nuwan Samarasinghe")}>Switch Names</button>*/}
-              <button
-                  style={style}
-                  onClick={this.togglePersonsHandler}>Toggle Persons</button> {/*This is very convenient syntax but it can be inefficient*/}
-              {persons}
-          </div>
+          <StyleRoot>
+              <div className="App">
+                  <h1>Hi, I'm a React App</h1>
+                  <p className={styleClasses.join(' ')}>This is really working...</p>
+                  {/*<button onClick={this.switchNameHandler.bind(this, "Nuwan Samarasinghe")}>Switch Names</button>*/}
+                  <button
+                      style={style}
+                      onClick={this.togglePersonsHandler}>Toggle Persons</button> {/*This is very convenient syntax but it can be inefficient*/}
+                  {persons}
+              </div>
+          </StyleRoot>
       );
       //   return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Does this work?'))
     }
