@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 
 import './App.css';
 import Person from "./Person/Person";
 
 // Using styled-components pkg return valid react component
-const StyledButton = styled.button`
+/*const StyledButton = styled.button`
       background-color: ${props => props.alt ? 'red' : 'green'};
       color: white;
       font: inherit;
@@ -17,7 +17,7 @@ const StyledButton = styled.button`
         background-color: ${props => props.alt ? 'salmon' : 'lightgreen'};
         color: black
       }
-`;
+`;*/
 
 class App extends Component{
 
@@ -120,9 +120,9 @@ class App extends Component{
               <h1>Hi, I'm a React App</h1>
               <p className={styleClasses.join(' ')}>This is really working...</p>
               {/*<button onClick={this.switchNameHandler.bind(this, "Nuwan Samarasinghe")}>Switch Names</button>*/}
-              <StyledButton
-                  alt={this.state.showPersons}
-                  onClick={this.togglePersonsHandler}>Toggle Persons</StyledButton> {/*This is very convenient syntax but it can be inefficient*/}
+              <button
+                  className='button'
+                  onClick={this.togglePersonsHandler}>Toggle Persons</button> {/*This is very convenient syntax but it can be inefficient*/}
               {persons}
           </div>
       );
