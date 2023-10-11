@@ -1,6 +1,23 @@
-import './App.css';
 import React, {Component} from "react";
+import styled from "styled-components";
+
+import './App.css';
 import Person from "./Person/Person";
+
+// Using styled-components pkg return valid react component
+const StyledButton = styled.button`
+      background-color: green;
+      color: white;
+      font: inherit;
+      border: 1px solid blue;
+      padding: 8px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: lightgreen;
+        color: black
+      }
+`;
 
 class App extends Component{
 
@@ -103,9 +120,8 @@ class App extends Component{
               <h1>Hi, I'm a React App</h1>
               <p className={styleClasses.join(' ')}>This is really working...</p>
               {/*<button onClick={this.switchNameHandler.bind(this, "Nuwan Samarasinghe")}>Switch Names</button>*/}
-              <button
-                  style={style}
-                  onClick={this.togglePersonsHandler}>Toggle Persons</button> {/*This is very convenient syntax but it can be inefficient*/}
+              <StyledButton
+                  onClick={this.togglePersonsHandler}>Toggle Persons</StyledButton> {/*This is very convenient syntax but it can be inefficient*/}
               {persons}
           </div>
       );
