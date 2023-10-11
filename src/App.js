@@ -6,7 +6,7 @@ import Person from "./Person/Person";
 
 // Using styled-components pkg return valid react component
 const StyledButton = styled.button`
-      background-color: green;
+      background-color: ${props => props.alt ? 'red' : 'green'};
       color: white;
       font: inherit;
       border: 1px solid blue;
@@ -14,7 +14,7 @@ const StyledButton = styled.button`
       cursor: pointer;
   
       &:hover {
-        background-color: lightgreen;
+        background-color: ${props => props.alt ? 'salmon' : 'lightgreen'};
         color: black
       }
 `;
@@ -69,7 +69,7 @@ class App extends Component{
     render() {
 
         // Need to install 'radium' pkg for enable css hover style in the inline css
-        const style = {
+        /*const style = {
             backgroundColor: 'green',
             color: 'white',
             font: 'inherit',
@@ -80,7 +80,7 @@ class App extends Component{
                 backgroundColor: 'lightgreen',
                 color: 'black'
             }
-        };
+        };*/
 
         let persons = null;
 
@@ -97,11 +97,11 @@ class App extends Component{
                     })}
                 </div>
             );
-            style.backgroundColor = 'red';
+            /*style.backgroundColor = 'red';
             style[':hover'] = {
                 backgroundColor: 'salmon',
                     color: 'black'
-            }
+            }*/
         }
 
         const styleClasses = [];
@@ -121,6 +121,7 @@ class App extends Component{
               <p className={styleClasses.join(' ')}>This is really working...</p>
               {/*<button onClick={this.switchNameHandler.bind(this, "Nuwan Samarasinghe")}>Switch Names</button>*/}
               <StyledButton
+                  alt={this.state.showPersons}
                   onClick={this.togglePersonsHandler}>Toggle Persons</StyledButton> {/*This is very convenient syntax but it can be inefficient*/}
               {persons}
           </div>
