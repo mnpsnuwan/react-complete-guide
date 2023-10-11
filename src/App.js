@@ -78,10 +78,21 @@ class App extends Component{
             style.backgroundColor = 'red';
         }
 
+        const styleClasses = [];
+
+        if(this.state.persons.length <= 2)
+        {
+            styleClasses.push('red'); // styleClasses = ['red']
+        }
+        if(this.state.persons.length <= 1)
+        {
+            styleClasses.push('bold'); // styleClasses = ['red', 'bold']
+        }
+
       return (
           <div className="App">
               <h1>Hi, I'm a React App</h1>
-              <p>This is really working...</p>
+              <p className={styleClasses.join(' ')}>This is really working...</p>
               {/*<button onClick={this.switchNameHandler.bind(this, "Nuwan Samarasinghe")}>Switch Names</button>*/}
               <button
                   style={style}
