@@ -2,6 +2,7 @@ import React from "react";
 // import styled from "styled-components";
 
 import classes from './Person.css';
+import {error} from "autoprefixer/lib/utils";
 
 // Using styled-components pkg return valid react component
 /*const StyledDiv = styled.div`
@@ -23,6 +24,14 @@ const person = (props) => {
             width: '450px'
         }
     }*/
+
+    // To check error boundaries
+    const rand = Math.random();
+
+    if(rand > 0.7)
+    {
+        throw new error('Something went wrong')
+    }
 
   return (
       <div className={classes.Person}>

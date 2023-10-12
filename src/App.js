@@ -3,6 +3,7 @@ import React, {Component} from "react";
 
 import classes from './App.css';
 import Person from "./Person/Person";
+import ErrorBoundary from "./ErrorBoundary/ErrorBoundary";
 
 // Using styled-components pkg return valid react component
 /*const StyledButton = styled.button`
@@ -89,12 +90,13 @@ class App extends Component{
             persons = (
                 <div >
                     {this.state.persons.map((person, index) => {
-                        return <Person
+                        return <ErrorBoundary key={person.id}>
+                            <Person
                             click={() => this.deletePersonsHandler(index)}
                             name={person.name}
                             age={person.age}
-                            key={person.id}
                             changed={(event) => this.nameChangeHandler(event, person.id)}/>
+                        </ErrorBoundary>
                     })}
                 </div>
             );
