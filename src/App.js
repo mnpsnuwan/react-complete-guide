@@ -1,6 +1,23 @@
-import './App.css';
 import React, {Component} from "react";
+// import styled from "styled-components";
+
+import classes from './App.css';
 import Person from "./Person/Person";
+
+// Using styled-components pkg return valid react component
+/*const StyledButton = styled.button`
+      background-color: ${props => props.alt ? 'red' : 'green'};
+      color: white;
+      font: inherit;
+      border: 1px solid blue;
+      padding: 8px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: ${props => props.alt ? 'salmon' : 'lightgreen'};
+        color: black
+      }
+`;*/
 
 class App extends Component{
 
@@ -51,15 +68,22 @@ class App extends Component{
 
     render() {
 
-        const style = {
-            backgroundColor: 'white',
+        // Need to install 'radium' pkg for enable css hover style in the inline css
+        /*const style = {
+            backgroundColor: 'green',
+            color: 'white',
             font: 'inherit',
             border: '1px solid blue',
             padding: '8px',
-            cursor: 'pointer'
-        };
+            cursor: 'pointer',
+            ':hover': {
+                backgroundColor: 'lightgreen',
+                color: 'black'
+            }
+        };*/
 
         let persons = null;
+        let buttonClass = '';
 
         if(this.state.showPersons) {
             persons = (
@@ -74,15 +98,32 @@ class App extends Component{
                     })}
                 </div>
             );
+            /*style.backgroundColor = 'red';
+            style[':hover'] = {
+                backgroundColor: 'salmon',
+                    color: 'black'
+            }*/
+            buttonClass = classes.Red
+        }
+
+        const styleClasses = [];
+
+        if(this.state.persons.length <= 2)
+        {
+            styleClasses.push(classes.red); // styleClasses = ['red']
+        }
+        if(this.state.persons.length <= 1)
+        {
+            styleClasses.push(classes.bold); // styleClasses = ['red', 'bold']
         }
 
       return (
-          <div className="App">
+          <div className={classes.App}>
               <h1>Hi, I'm a React App</h1>
-              <p>This is really working...</p>
+              <p className={styleClasses.join(' ')}>This is really working...</p>
               {/*<button onClick={this.switchNameHandler.bind(this, "Nuwan Samarasinghe")}>Switch Names</button>*/}
               <button
-                  style={style}
+                  className={buttonClass}
                   onClick={this.togglePersonsHandler}>Toggle Persons</button> {/*This is very convenient syntax but it can be inefficient*/}
               {persons}
           </div>
