@@ -1,23 +1,7 @@
 import React, {Component} from "react";
-// import styled from "styled-components";
 
 import classes from './App.css';
-import Person from "./Person/Person";
-
-// Using styled-components pkg return valid react component
-/*const StyledButton = styled.button`
-      background-color: ${props => props.alt ? 'red' : 'green'};
-      color: white;
-      font: inherit;
-      border: 1px solid blue;
-      padding: 8px;
-      cursor: pointer;
-  
-      &:hover {
-        background-color: ${props => props.alt ? 'salmon' : 'lightgreen'};
-        color: black
-      }
-`;*/
+import Person from "../components/Persons/Person/Person";
 
 class App extends Component{
 
@@ -67,21 +51,6 @@ class App extends Component{
     }
 
     render() {
-
-        // Need to install 'radium' pkg for enable css hover style in the inline css
-        /*const style = {
-            backgroundColor: 'green',
-            color: 'white',
-            font: 'inherit',
-            border: '1px solid blue',
-            padding: '8px',
-            cursor: 'pointer',
-            ':hover': {
-                backgroundColor: 'lightgreen',
-                color: 'black'
-            }
-        };*/
-
         let persons = null;
         let buttonClass = '';
 
@@ -98,11 +67,7 @@ class App extends Component{
                     })}
                 </div>
             );
-            /*style.backgroundColor = 'red';
-            style[':hover'] = {
-                backgroundColor: 'salmon',
-                    color: 'black'
-            }*/
+
             buttonClass = classes.Red
         }
 
