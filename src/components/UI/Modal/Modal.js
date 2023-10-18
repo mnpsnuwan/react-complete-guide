@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 
 import classes from './Modal.css'
-import Auc from "../../../hoc/Auc";
+import Auc from "../../../hoc/Auc/Auc";
 import Backdrop from "../Backdrop/Backdrop";
 
 class Modal extends Component{
