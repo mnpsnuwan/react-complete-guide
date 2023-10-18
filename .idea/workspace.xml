@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="909fa9df-02bb-46d9-a73a-88eeb2d4b05b" name="Changes" comment="IM:DEV:React Complete Guide - Basic Burger Builder, Changing the Folder Structure ('Layout' &gt;&gt;&gt; 'Higher Order Component' folder).">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react-complete-guide.iml" beforeDir="false" />
+    <list default="true" id="909fa9df-02bb-46d9-a73a-88eeb2d4b05b" name="Changes" comment="IM:DEV:React Complete Guide - React Http Request, Initial Commit.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jest/cssTransform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jest/fileTransform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/paths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpackDevServer.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewPost/NewPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewPost/NewPost.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,24 +56,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "7-http-ajax",
-    "last_opened_file_path": "D:/Education/react-complete-guide",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;7-http-ajax&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Education/react-complete-guide&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Education\react-complete-guide" />
@@ -111,15 +122,8 @@
       <workItem from="1697311274376" duration="19370000" />
       <workItem from="1697475522521" duration="7759000" />
       <workItem from="1697576799200" duration="4552000" />
-      <workItem from="1697648002890" duration="3248000" />
-    </task>
-    <task id="LOCAL-00013" summary="IM:DEV:React Complete Guide - Base syntax, two-way binding.">
-      <option name="closed" value="true" />
-      <created>1696519582423</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1696519582423</updated>
+      <workItem from="1697648002890" duration="4805000" />
+      <workItem from="1697659307778" duration="1506000" />
     </task>
     <task id="LOCAL-00014" summary="IM:DEV:React Complete Guide - Base syntax, styling with style sheets.">
       <option name="closed" value="true" />
@@ -505,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697653038641</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="IM:DEV:React Complete Guide - React Http Request, Initial Commit.">
+      <option name="closed" value="true" />
+      <created>1697655047385</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1697655047385</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="IM:DEV:React Complete Guide - Debugging, Error Boundaries." />
     <MESSAGE value="IM:DEV:React Complete Guide - Components Deep Dive, Better Project Structure." />
     <MESSAGE value="IM:DEV:React Complete Guide - Components Deep Dive, Splitting App into Components." />
     <MESSAGE value="IM:DEV:React Complete Guide - Components Deep Dive, Lifecycle Hooks." />
@@ -578,6 +589,7 @@
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Drawer Toggle and Hamburger Icon." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Improving Performance." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Changing the Folder Structure ('Layout' &gt;&gt;&gt; 'Higher Order Component' folder)." />
-    <option name="LAST_COMMIT_MESSAGE" value="IM:DEV:React Complete Guide - Basic Burger Builder, Changing the Folder Structure ('Layout' &gt;&gt;&gt; 'Higher Order Component' folder)." />
+    <MESSAGE value="IM:DEV:React Complete Guide - React Http Request, Initial Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="IM:DEV:React Complete Guide - React Http Request, Initial Commit." />
   </component>
 </project>
