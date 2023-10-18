@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="909fa9df-02bb-46d9-a73a-88eeb2d4b05b" name="Changes" comment="IM:DEV:React Complete Guide - React Http Request, Initial Commit.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jest/cssTransform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jest/fileTransform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/paths.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/polyfills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.prod.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpackDevServer.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="909fa9df-02bb-46d9-a73a-88eeb2d4b05b" name="Changes" comment="IM:DEV:React Complete Guide - React Http Request, Installing axios package.">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/start.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewPost/NewPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewPost/NewPost.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,15 +109,7 @@
       <workItem from="1697475522521" duration="7759000" />
       <workItem from="1697576799200" duration="4552000" />
       <workItem from="1697648002890" duration="4805000" />
-      <workItem from="1697659307778" duration="1506000" />
-    </task>
-    <task id="LOCAL-00014" summary="IM:DEV:React Complete Guide - Base syntax, styling with style sheets.">
-      <option name="closed" value="true" />
-      <created>1696520519068</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1696520519068</updated>
+      <workItem from="1697659307778" duration="2274000" />
     </task>
     <task id="LOCAL-00015" summary="IM:DEV:React Complete Guide - Base syntax, inline style.">
       <option name="closed" value="true" />
@@ -517,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697655047385</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="IM:DEV:React Complete Guide - React Http Request, Installing axios package.">
+      <option name="closed" value="true" />
+      <created>1697661818395</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1697661818395</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="IM:DEV:React Complete Guide - Components Deep Dive, Better Project Structure." />
     <MESSAGE value="IM:DEV:React Complete Guide - Components Deep Dive, Splitting App into Components." />
     <MESSAGE value="IM:DEV:React Complete Guide - Components Deep Dive, Lifecycle Hooks." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Initial Commit." />
@@ -590,6 +575,7 @@
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Improving Performance." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Changing the Folder Structure ('Layout' &gt;&gt;&gt; 'Higher Order Component' folder)." />
     <MESSAGE value="IM:DEV:React Complete Guide - React Http Request, Initial Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="IM:DEV:React Complete Guide - React Http Request, Initial Commit." />
+    <MESSAGE value="IM:DEV:React Complete Guide - React Http Request, Installing axios package." />
+    <option name="LAST_COMMIT_MESSAGE" value="IM:DEV:React Complete Guide - React Http Request, Installing axios package." />
   </component>
 </project>
