@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="909fa9df-02bb-46d9-a73a-88eeb2d4b05b" name="Changes" comment="IM:DEV:React Complete Guide - Basic Burger Builder, Changing the Folder Structure ('Layout' &gt;&gt;&gt; 'Higher Order Component' folder).">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react-complete-guide.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6-basic-burger-builder" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2WHrXaO8aADpaOF6LwnfaR02dS3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "7-http-ajax",
+    "last_opened_file_path": "D:/Education/react-complete-guide",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Education\react-complete-guide" />
+      <recent name="D:\Education\react-complete-guide\src\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Education\react-complete-guide\src\hoc\Auc" />
+      <recent name="D:\Education\react-complete-guide\src\hoc" />
+      <recent name="D:\Education\react-complete-guide\src\containers" />
+      <recent name="D:\Education\react-complete-guide\src\components\Burger" />
+      <recent name="D:\Education\react-complete-guide\src\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="909fa9df-02bb-46d9-a73a-88eeb2d4b05b" name="Changes" comment="" />
+      <created>1696400386594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696400386594</updated>
+      <workItem from="1696400387818" duration="23303000" />
+      <workItem from="1696990699130" duration="8072000" />
+      <workItem from="1697042865662" duration="19287000" />
+      <workItem from="1697129735499" duration="8900000" />
+      <workItem from="1697175764059" duration="1816000" />
+      <workItem from="1697215912836" duration="2678000" />
+      <workItem from="1697223615299" duration="203000" />
+      <workItem from="1697223921411" duration="2659000" />
+      <workItem from="1697226707946" duration="15822000" />
+      <workItem from="1697311274376" duration="19370000" />
+      <workItem from="1697475522521" duration="7759000" />
+      <workItem from="1697576799200" duration="4552000" />
+      <workItem from="1697648002890" duration="3248000" />
+    </task>
+    <task id="LOCAL-00013" summary="IM:DEV:React Complete Guide - Base syntax, two-way binding.">
+      <option name="closed" value="true" />
+      <created>1696519582423</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696519582423</updated>
+    </task>
+    <task id="LOCAL-00014" summary="IM:DEV:React Complete Guide - Base syntax, styling with style sheets.">
+      <option name="closed" value="true" />
+      <created>1696520519068</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696520519068</updated>
+    </task>
+    <task id="LOCAL-00015" summary="IM:DEV:React Complete Guide - Base syntax, inline style.">
+      <option name="closed" value="true" />
+      <created>1696522255931</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696522255931</updated>
+    </task>
+    <task id="LOCAL-00016" summary="IM:DEV:React Complete Guide - Base syntax, task and solution.">
+      <option name="closed" value="true" />
+      <created>1696526504139</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696526504139</updated>
+    </task>
+    <task id="LOCAL-00017" summary="IM:DEV:React Complete Guide - Lists &amp; Conditionals, Rendering Content Conditionally.">
+      <option name="closed" value="true" />
+      <created>1696992093888</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696992093888</updated>
+    </task>
+    <task id="LOCAL-00018" summary="IM:DEV:React Complete Guide - Lists &amp; Conditionals, Dynamic Content Using Javascript.">
+      <option name="closed" value="true" />
+      <created>1696993157881</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696993157881</updated>
+    </task>
+    <task id="LOCAL-00019" summary="IM:DEV:React Complete Guide - Lists &amp; Conditionals, Outputting Lists &amp; States.">
+      <option name="closed" value="true" />
+      <created>1696995277944</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696995277944</updated>
+    </task>
+    <task id="LOCAL-00020" summary="IM:DEV:React Complete Guide - Lists &amp; Conditionals, Outputting Lists &amp; States.">
+      <option name="closed" value="true" />
+      <created>1696996003702</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1696996003702</updated>
+    </task>
+    <task id="LOCAL-00021" summary="IM:DEV:React Complete Guide - Lists &amp; Conditionals, Updating State Immutably.">
+      <option name="closed" value="true" />
+      <created>1696996666728</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1696996666728</updated>
+    </task>
+    <task id="LOCAL-00022" summary="IM:DEV:React Complete Guide - Lists &amp; Conditionals, Keys and Flexible Lists.">
+      <option name="closed" value="true" />
+      <created>1696998926576</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1696998926576</updated>
+    </task>
+    <task id="LOCAL-00023" summary="IM:DEV:React Complete Guide - Lists &amp; Conditionals, task &amp; solution.">
+      <option name="closed" value="true" />
+      <created>1697047329262</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1697047329262</updated>
+    </task>
+    <task id="LOCAL-00024" summary="IM:DEV:React Complete Guide - Styling, Dynamically Style Change.">
+      <option name="closed" value="true" />
+      <created>1697048321808</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1697048321808</updated>
+    </task>
+    <task id="LOCAL-00025" summary="IM:DEV:React Complete Guide - Styling, Class Name Dynamically.">
+      <option name="closed" value="true" />
+      <created>1697049661795</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1697049661795</updated>
+    </task>
+    <task id="LOCAL-00026" summary="IM:DEV:React Complete Guide - Styling, Using Radium.">
+      <option name="closed" value="true" />
+      <created>1697050599096</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1697050599096</updated>
+    </task>
+    <task id="LOCAL-00027" summary="IM:DEV:React Complete Guide - Styling, Radium for Media Queries.">
+      <option name="closed" value="true" />
+      <created>1697053521875</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1697053521875</updated>
+    </task>
+    <task id="LOCAL-00028" summary="IM:DEV:React Complete Guide - Styling, Styled Components.">
+      <option name="closed" value="true" />
+      <created>1697056603584</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1697056603584</updated>
+    </task>
+    <task id="LOCAL-00029" summary="IM:DEV:React Complete Guide - Styling, More on Styled Components.">
+      <option name="closed" value="true" />
+      <created>1697057631375</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1697057631375</updated>
+    </task>
+    <task id="LOCAL-00030" summary="IM:DEV:React Complete Guide - Styling, Styled Components Dynamic Style.">
+      <option name="closed" value="true" />
+      <created>1697058631491</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1697058631491</updated>
+    </task>
+    <task id="LOCAL-00031" summary="IM:DEV:React Complete Guide - Styling, Working with CSS Modules.">
+      <option name="closed" value="true" />
+      <created>1697059349014</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1697059349014</updated>
+    </task>
+    <task id="LOCAL-00032" summary="IM:DEV:React Complete Guide - Adding Untracked Files.">
+      <option name="closed" value="true" />
+      <created>1697059601609</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1697059601609</updated>
+    </task>
+    <task id="LOCAL-00033" summary="IM:DEV:React Complete Guide - Styling, Working with CSS Modules.">
+      <option name="closed" value="true" />
+      <created>1697061120028</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1697061120028</updated>
+    </task>
+    <task id="LOCAL-00034" summary="IM:DEV:React Complete Guide - Styling, Working with CSS Modules.">
+      <option name="closed" value="true" />
+      <created>1697072297162</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1697072297162</updated>
+    </task>
+    <task id="LOCAL-00035" summary="IM:DEV:React Complete Guide - Styling, Working with CSS Modules Further.">
+      <option name="closed" value="true" />
+      <created>1697072518018</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1697072518018</updated>
+    </task>
+    <task id="LOCAL-00036" summary="IM:DEV:React Complete Guide - Debugging, Working with React Developer Tools.">
+      <option name="closed" value="true" />
+      <created>1697130663602</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1697130663602</updated>
+    </task>
+    <task id="LOCAL-00037" summary="IM:DEV:React Complete Guide - Debugging, Error Boundaries.">
+      <option name="closed" value="true" />
+      <created>1697133941149</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1697133941149</updated>
+    </task>
+    <task id="LOCAL-00038" summary="IM:DEV:React Complete Guide - Components Deep Dive, Better Project Structure.">
+      <option name="closed" value="true" />
+      <created>1697135614492</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1697135614492</updated>
+    </task>
+    <task id="LOCAL-00039" summary="IM:DEV:React Complete Guide - Components Deep Dive, Splitting App into Components.">
+      <option name="closed" value="true" />
+      <created>1697138007499</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1697138007500</updated>
+    </task>
+    <task id="LOCAL-00040" summary="IM:DEV:React Complete Guide - Components Deep Dive, Lifecycle Hooks.">
+      <option name="closed" value="true" />
+      <created>1697179833861</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1697179833861</updated>
+    </task>
+    <task id="LOCAL-00041" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Initial Commit.">
+      <option name="closed" value="true" />
+      <created>1697224772958</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1697224772958</updated>
+    </task>
+    <task id="LOCAL-00042" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Component Layout.">
+      <option name="closed" value="true" />
+      <created>1697227022330</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1697227022330</updated>
+    </task>
+    <task id="LOCAL-00043" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Creating Burger Builder.">
+      <option name="closed" value="true" />
+      <created>1697231203384</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1697231203384</updated>
+    </task>
+    <task id="LOCAL-00044" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Starting Burger Component.">
+      <option name="closed" value="true" />
+      <created>1697234934967</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1697234934967</updated>
+    </task>
+    <task id="LOCAL-00045" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Outputting Burger Ingredients Dynamically.">
+      <option name="closed" value="true" />
+      <created>1697237191762</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1697237191762</updated>
+    </task>
+    <task id="LOCAL-00046" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Calculating the Ingredients Dynamically.">
+      <option name="closed" value="true" />
+      <created>1697266532826</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1697266532826</updated>
+    </task>
+    <task id="LOCAL-00047" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Connecting State and Build Controls.">
+      <option name="closed" value="true" />
+      <created>1697273333596</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1697273333596</updated>
+    </task>
+    <task id="LOCAL-00048" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Removing Ingredients Safely.">
+      <option name="closed" value="true" />
+      <created>1697312753436</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1697312753436</updated>
+    </task>
+    <task id="LOCAL-00049" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Adding Price and Order Button.">
+      <option name="closed" value="true" />
+      <created>1697318284931</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1697318284931</updated>
+    </task>
+    <task id="LOCAL-00050" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Adding Order Button and Order Summary Modal.">
+      <option name="closed" value="true" />
+      <created>1697329448309</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1697329448309</updated>
+    </task>
+    <task id="LOCAL-00051" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Adding Backdrop Components.">
+      <option name="closed" value="true" />
+      <created>1697404408611</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1697404408611</updated>
+    </task>
+    <task id="LOCAL-00052" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Adding a Custom Button Component.">
+      <option name="closed" value="true" />
+      <created>1697429165721</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1697429165722</updated>
+    </task>
+    <task id="LOCAL-00053" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Implementing Button Component.">
+      <option name="closed" value="true" />
+      <created>1697441219220</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1697441219220</updated>
+    </task>
+    <task id="LOCAL-00054" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Adding Price to Order Summary &amp; Adding Toolbar.">
+      <option name="closed" value="true" />
+      <created>1697476275851</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1697476275851</updated>
+    </task>
+    <task id="LOCAL-00055" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Adding the Burger Logo.">
+      <option name="closed" value="true" />
+      <created>1697477439813</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1697477439813</updated>
+    </task>
+    <task id="LOCAL-00056" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Adding Reusable Navigation Items.">
+      <option name="closed" value="true" />
+      <created>1697478978413</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1697478978413</updated>
+    </task>
+    <task id="LOCAL-00057" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Creating the Responsive Side Drawer.">
+      <option name="closed" value="true" />
+      <created>1697480449593</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1697480449593</updated>
+    </task>
+    <task id="LOCAL-00058" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Responsive Adjustment Further.">
+      <option name="closed" value="true" />
+      <created>1697482288282</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1697482288287</updated>
+    </task>
+    <task id="LOCAL-00059" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Drawer Toggle and Hamburger Icon.">
+      <option name="closed" value="true" />
+      <created>1697580932491</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1697580932492</updated>
+    </task>
+    <task id="LOCAL-00060" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Improving Performance.">
+      <option name="closed" value="true" />
+      <created>1697651142425</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1697651142426</updated>
+    </task>
+    <task id="LOCAL-00061" summary="IM:DEV:React Complete Guide - Basic Burger Builder, Changing the Folder Structure ('Layout' &gt;&gt;&gt; 'Higher Order Component' folder).">
+      <option name="closed" value="true" />
+      <created>1697653038641</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1697653038641</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="5744299c-88c0-4ece-bd33-2992437c2c93" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="5744299c-88c0-4ece-bd33-2992437c2c93">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IM:DEV:React Complete Guide - Debugging, Error Boundaries." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Components Deep Dive, Better Project Structure." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Components Deep Dive, Splitting App into Components." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Components Deep Dive, Lifecycle Hooks." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Initial Commit." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Component Layout." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Creating Burger Builder." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Starting Burger Component." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Outputting Burger Ingredients Dynamically." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Calculating the Ingredients Dynamically." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Connecting State and Build Controls." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Removing Ingredients Safely." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Adding Price and Order Button." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Adding Order Button and Order Summary Modal." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Adding Backdrop Components." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Adding a Custom Button Component." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Implementing Button Component." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Adding Price to Order Summary &amp; Adding Toolbar." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Adding the Burger Logo." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Adding Reusable Navigation Items." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Creating the Responsive Side Drawer." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Responsive Adjustment Further." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Drawer Toggle and Hamburger Icon." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Improving Performance." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Changing the Folder Structure ('Layout' &gt;&gt;&gt; 'Higher Order Component' folder)." />
+    <option name="LAST_COMMIT_MESSAGE" value="IM:DEV:React Complete Guide - Basic Burger Builder, Changing the Folder Structure ('Layout' &gt;&gt;&gt; 'Higher Order Component' folder)." />
+  </component>
+</project>
