@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import './NewPost.css';
 
 class NewPost extends Component {
-    state = {
+
+    state= {
         title: '',
         content: '',
         author: 'Nuwan'
