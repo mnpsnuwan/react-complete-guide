@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="909fa9df-02bb-46d9-a73a-88eeb2d4b05b" name="Changes" comment="IM:DEV:React Complete Guide - React Http Request, Remove eslint config.">
+    <list default="true" id="909fa9df-02bb-46d9-a73a-88eeb2d4b05b" name="Changes" comment="IM:DEV:React Complete Guide - React Http Request, Fetching Data to the Screen and Make them Selectable.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,14 +110,7 @@
       <workItem from="1697576799200" duration="4552000" />
       <workItem from="1697648002890" duration="4805000" />
       <workItem from="1697659307778" duration="3116000" />
-    </task>
-    <task id="LOCAL-00016" summary="IM:DEV:React Complete Guide - Base syntax, task and solution.">
-      <option name="closed" value="true" />
-      <created>1696526504139</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1696526504139</updated>
+      <workItem from="1697729376283" duration="1909000" />
     </task>
     <task id="LOCAL-00017" summary="IM:DEV:React Complete Guide - Lists &amp; Conditionals, Rendering Content Conditionally.">
       <option name="closed" value="true" />
@@ -503,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697661899481</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="IM:DEV:React Complete Guide - React Http Request, Fetching Data to the Screen and Make them Selectable.">
+      <option name="closed" value="true" />
+      <created>1697729897673</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1697729897673</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="IM:DEV:React Complete Guide - Components Deep Dive, Lifecycle Hooks." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Initial Commit." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Component Layout." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Creating Burger Builder." />
@@ -576,6 +576,7 @@
     <MESSAGE value="IM:DEV:React Complete Guide - React Http Request, Initial Commit." />
     <MESSAGE value="IM:DEV:React Complete Guide - React Http Request, Installing axios package." />
     <MESSAGE value="IM:DEV:React Complete Guide - React Http Request, Remove eslint config." />
-    <option name="LAST_COMMIT_MESSAGE" value="IM:DEV:React Complete Guide - React Http Request, Remove eslint config." />
+    <MESSAGE value="IM:DEV:React Complete Guide - React Http Request, Fetching Data to the Screen and Make them Selectable." />
+    <option name="LAST_COMMIT_MESSAGE" value="IM:DEV:React Complete Guide - React Http Request, Fetching Data to the Screen and Make them Selectable." />
   </component>
 </project>
