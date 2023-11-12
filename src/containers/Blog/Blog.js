@@ -2,11 +2,15 @@ import React, { Component } from 'react';
 
 import './Blog.css';
 import Posts from "./Posts/Posts";
-import {NavLink, Route, Routes} from "react-router-dom";
+import {NavLink, Redirect, Route, Switch} from "react-router-dom";
 import NewPost from "./NewPost/NewPost";
-import FullPost from "./Posts/Posts";
 
 class Blog extends Component {
+
+    state = {
+        auth: false
+    }
+
     render () {
 
         return (
@@ -15,8 +19,12 @@ class Blog extends Component {
                     <nav>
                         <ul>
                             <li><NavLink
-                                to="/"
-                                exact>Home</NavLink></li>
+                                to="/posts"
+                                exact
+                                activeClass="my-class"
+                                activeStyle={{
+                                    color: '#FA923F'
+                                }}>Home</NavLink></li>
                             <li><NavLink to={{
                                 pathname: '/new-post',
                                 hash: '#submit',
@@ -25,13 +33,13 @@ class Blog extends Component {
                         </ul>
                     </nav>
                 </header>
-                {/*<Route path="/" exact render={() => <h1>Home</h1>} />
-                <Route path="/" exact render={() => <h1>Home 2</h1>} />*/}
-                <Routes>
-                    <Route path="/" element={<Posts />} />
-                    <Route path="/new-post" element={<NewPost />} />
-                    <Route path="/:id" element={<FullPost />} />
-                </Routes>
+                <Switch>
+                    {this.state.auth ? <Route path="/new-post" component={NewPost} /> : null}
+                    <Route path="/posts" component={Posts} />
+
+                    <Redirect from="/" to="/posts"/>
+                    {/*<Route path="/" component={Posts} />*/}
+                </Switch>
             </div>
         );
     }

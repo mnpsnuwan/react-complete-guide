@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="909fa9df-02bb-46d9-a73a-88eeb2d4b05b" name="Changes" comment="IM:DEV:React Complete Guide - Burger Builder, Order Submission Passing Data Between Pages using Navigation Links.">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="909fa9df-02bb-46d9-a73a-88eeb2d4b05b" name="Changes" comment="IM:DEV:React Complete Guide - Http Request, Using Links to Switch Pages and Passing Route Parameters.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,24 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "7-http-ajax",
-    "last_opened_file_path": "D:/Education/react-complete-guide",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;7-http-ajax&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Education/react-complete-guide&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Education\react-complete-guide" />
@@ -112,15 +111,9 @@
       <workItem from="1697648002890" duration="4805000" />
       <workItem from="1697659307778" duration="3116000" />
       <workItem from="1697729376283" duration="2773000" />
-      <workItem from="1698684590759" duration="1234000" />
-    </task>
-    <task id="LOCAL-00018" summary="IM:DEV:React Complete Guide - Lists &amp; Conditionals, Dynamic Content Using Javascript.">
-      <option name="closed" value="true" />
-      <created>1696993157881</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1696993157881</updated>
+      <workItem from="1698684590759" duration="3063000" />
+      <workItem from="1699300508631" duration="774000" />
+      <workItem from="1699576425115" duration="1810000" />
     </task>
     <task id="LOCAL-00019" summary="IM:DEV:React Complete Guide - Lists &amp; Conditionals, Outputting Lists &amp; States.">
       <option name="closed" value="true" />
@@ -506,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697740779736</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="IM:DEV:React Complete Guide - Http Request, Using Links to Switch Pages and Passing Route Parameters.">
+      <option name="closed" value="true" />
+      <created>1698691047662</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1698691047663</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Component Layout." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Creating Burger Builder." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Starting Burger Component." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Outputting Burger Ingredients Dynamically." />
@@ -579,6 +579,7 @@
     <MESSAGE value="IM:DEV:React Complete Guide - React Http Request, Remove eslint config." />
     <MESSAGE value="IM:DEV:React Complete Guide - React Http Request, Fetching Data to the Screen and Make them Selectable." />
     <MESSAGE value="IM:DEV:React Complete Guide - React Http Request, Post/Delete Blog Posts and Handling Errors." />
-    <option name="LAST_COMMIT_MESSAGE" value="IM:DEV:React Complete Guide - React Http Request, Post/Delete Blog Posts and Handling Errors." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Http Request, Using Links to Switch Pages and Passing Route Parameters." />
+    <option name="LAST_COMMIT_MESSAGE" value="IM:DEV:React Complete Guide - Http Request, Using Links to Switch Pages and Passing Route Parameters." />
   </component>
 </project>
