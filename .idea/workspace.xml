@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="909fa9df-02bb-46d9-a73a-88eeb2d4b05b" name="Changes" comment="IM:DEV:React Complete Guide - Http Request, Using Links to Switch Pages and Passing Route Parameters.">
+    <list default="true" id="909fa9df-02bb-46d9-a73a-88eeb2d4b05b" name="Changes" comment="IM:DEV:React Complete Guide - Http Request, Routing and Redirecting.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,15 +113,7 @@
       <workItem from="1697729376283" duration="2773000" />
       <workItem from="1698684590759" duration="3063000" />
       <workItem from="1699300508631" duration="774000" />
-      <workItem from="1699576425115" duration="1810000" />
-    </task>
-    <task id="LOCAL-00019" summary="IM:DEV:React Complete Guide - Lists &amp; Conditionals, Outputting Lists &amp; States.">
-      <option name="closed" value="true" />
-      <created>1696995277944</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1696995277944</updated>
+      <workItem from="1699576425115" duration="2658000" />
     </task>
     <task id="LOCAL-00020" summary="IM:DEV:React Complete Guide - Lists &amp; Conditionals, Outputting Lists &amp; States.">
       <option name="closed" value="true" />
@@ -507,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698691047663</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="IM:DEV:React Complete Guide - Http Request, Routing and Redirecting.">
+      <option name="closed" value="true" />
+      <created>1699755711740</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1699755711740</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Creating Burger Builder." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Starting Burger Component." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Outputting Burger Ingredients Dynamically." />
     <MESSAGE value="IM:DEV:React Complete Guide - Basic Burger Builder, Calculating the Ingredients Dynamically." />
@@ -580,6 +579,7 @@
     <MESSAGE value="IM:DEV:React Complete Guide - React Http Request, Fetching Data to the Screen and Make them Selectable." />
     <MESSAGE value="IM:DEV:React Complete Guide - React Http Request, Post/Delete Blog Posts and Handling Errors." />
     <MESSAGE value="IM:DEV:React Complete Guide - Http Request, Using Links to Switch Pages and Passing Route Parameters." />
-    <option name="LAST_COMMIT_MESSAGE" value="IM:DEV:React Complete Guide - Http Request, Using Links to Switch Pages and Passing Route Parameters." />
+    <MESSAGE value="IM:DEV:React Complete Guide - Http Request, Routing and Redirecting." />
+    <option name="LAST_COMMIT_MESSAGE" value="IM:DEV:React Complete Guide - Http Request, Routing and Redirecting." />
   </component>
 </project>
